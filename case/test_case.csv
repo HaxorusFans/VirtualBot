@@ -1,0 +1,7 @@
+category,command,response,delimiter,delay,expect
+SerialPort,sn,ssssssss,"] : - )",20," true"
+SerialPort,mlbsn,nnnnnnnnnn,"] : - )",20," true"
+SerialPort,cmd3,resp3,"] : - )",20,resp3
+SerialPort,cmd2,resp4,"] : - )",20,resp1
+MIX_RPC,"xlbsn"," gggggggggg",,,OK
+MIX_RPC,"fixture.sendCommandReadBack MAGNET_ON {""timeout_ms"":20000}","MAGNET_ON OK",,,OK

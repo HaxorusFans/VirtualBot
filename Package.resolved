@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "chatbubble",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/zunda-pixel/ChatBubble.git",
+      "state" : {
+        "revision" : "15d65b9ef0bb144b4e5ba863ebbe5bbeafa07bca",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftcsv",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swiftcsv/SwiftCSV.git",
+      "state" : {
+        "revision" : "6ab5d0fe9b6ef3c79d717eefa70862df389e74d9",
+        "version" : "0.10.0"
+      }
+    }
+  ],
+  "version" : 2
+}
